@@ -1,0 +1,208 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[full]{textcomp}
+\usepackage{CJKutf8}
+\usepackage[lf]{ebgaramond}
+% \usepackage[scaled,swashQ]{garamondx}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\usepackage[a4paper,left=.9in, right=.9in, top=1.5in, bottom=1.5in]{geometry}
+\usepackage{url}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+
+% package settings
+\usepackage[
+    hidelinks,
+    pdfnewwindow=true,
+    pdfauthor={Lantian Zhu},
+    pdftitle={Curriculum Vitae of Larry Lantian Zhu},
+]{hyperref}
+
+\pagestyle{headings}
+\markright{\textbf{Larry Zhu}}
+
+\setlength\parindent{2em}
+
+\thispagestyle{empty}
+
+% define cv section
+\newcommand{\cvsection}[1]{\section*{\rmfamily#1}}
+\newcommand{\cvsubsection}[1]{\subsection*{\rmfamily\hspace{1.6em}#1}}
+
+% begin
+\begin{document}
+
+% name
+\begin{center}
+    \Huge{
+    \rmfamily
+    \textbf{Lantian Zhu}}
+\end{center}
+\vspace{20pt}
+
+
+\setlength{\parskip}{1pt}
+\renewcommand{\arraystretch}{1.25}
+
+% Contact Information
+
+\noindent School of Business \hfill (+86) 132-6679-9536
+
+\noindent Nanjing University (NJU)\hfill \href{mailto:zhulantian93@163.com}{\texttt{zhulantian93@163.com}}
+
+\noindent Nanjing, Jiangsu 210000, China\hfill \url{www.zlt93.mysxl.cn}
+
+
+\setlength{\parskip}{3pt}
+
+
+
+
+
+
+
+
+
+
+
+% below is another kind of style
+\cvsection{Education }
+\indent 
+
+Ph.D.,Economics, Nanjing University(NJU), 2020 to 2024 (expc.)
+
+M.S., Accouting, Hohai University(HHU), 2018
+
+B.S.,Financial Management, Nanjing University of finance and economic(NUFE), 2016
+
+
+
+
+
+% distinction, award, honor, and fellowship
+\cvsection{Fellowship}
+\indent
+
+Excellent graduate,NJU, Oct. 2022
+
+NexStar 2022 of Creative,Nanjing University &Melbourne City,March.2022
+
+2nd Prize of Master Scholarship,Hohai University, Oct. 2017
+
+2nd Prize of Bachelor Scholarship,NUFE, Oct. 2015
+
+
+
+
+
+
+
+% publication
+\section*{Publication}
+
+\cvsubsection{Refereed Journal Articles}
+
+\begin{enumerate}[resume]
+    \item Lantian Zhu,Yang Ge. ‘Does the market segmentation curb the economic resilience?’ \textit{ Statistics&Decision }, Accepted
+    
+
+   \item Lantian Zhu,Jianping Zhang. ‘Market Determinism, Government Transformation and Government Economics with Chinese Characteristics.’ \textit{Qinghai Social Sciences}, Accepted
+
+    \item Lantian Zhu,Yang Ge. ‘How does the primacy of provincial capital cities affect provincial economic resilience? - Facts and explanations in China’. \textit{Inquiry Into Economic Issues}
+
+    \item JianPing Zhang,Lantian Zhu.‘Research on the Degree of Financialization in China’ 
+ under review}
+
+     \item Lantian Zhu,JianPing Zhang.‘The level of rural revitalization in china: evaluation system and regional differences’ under review
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+% teaching experience 
+\cvsection{Teaching Experience}
+\indent
+
+\textbf{Capital Reading}\hfill Autumn 2020
+
+\hspace{2em}Teaching Assistant, with Prof. Ge Yang, at NJU
+
+\textbf{Macro Economics}\hfill  Spring 2017
+
+\hspace{2em}Teaching Assistant, with Prof. Lee, at Hohai University
+
+%  Statement
+\cvsection{Statement}
+\indent
+
+\hangindent=2em  
+\par I’m expected to receive my Econ PhD from Nanjing University in June 2024. My academic performance is excellent and I kept winning academic scholarships for many years. I naturally love exploring the world and doing research. I have a wide vision and my research interests focus on China economic issues，recessions and macroeconomics. I have already published a few dissertations for now as I list out in my resume.
+\par I’m very skilled at economic analysis, data science. More importantly, I get the ability to think independently, which enables me to analyze and think more deeply about the nature of problems.
+\par I have an optimistic and strong personality. I trust that my ability comes from long-term concentration and effort. For me the progress of science and technology is what make true value for human beings and I always think tomorrow will be better.I truly insist that what defines a person depends on his contribution to the world.I always follow the principle of being honesty and make everything open when I work, which makes communication simple and effective. I love to stay outside and embrace nature.Running, camping and swimming are my lifetime hobbies which make me energetic.
+\par I’m ambitious and determined to be extraordinary. I know what it takes and I’ll embrace it with great passion.I look forward to showing myself to you face to face.
+
+
+% industrial experience
+% \section*{Industrial Experience}
+% \indent
+
+% \textbf{Strawberry Inc.}, Beijing, China
+
+% \hspace{2em}Co-funder, 2077 - 
+
+% \textbf{Delicious Mango Holdings Ltd.}, London, UK
+
+% \hspace{2em}\LaTeX~Engineer Intern, 2076 - 2077
+
+% \textbf{CV Agency Co. Ltd.}, Hawaii, USA
+
+% \hspace{2em}CV Broker, 2075 - 2076
+% \begin{itemize}[leftmargin=5em, topsep=0pt, itemsep=0pt]
+%     \item Helped a three-year old child create her first CV
+%     \item Hilight 2 ...
+%     \item Hilight 3 ...
+% \end{itemize}
+
+
+
+
+% language
+\cvsection{Language}
+\indent
+
+Native Chinese (Mandarin \& Cantonese)
+
+Fluent English
+
+
+
+
+% reference 
+\cvsection{Reference}
+\indent
+
+\textbf{Dr. Ge Yang}, Professor and Dean, Business School,Nanjing University
+
+ \hspace{2em} \url{geyangnd@sina.com}
+
+
+
+
+
+
+\vfill
+
+\section*{\hfill\color{OliveGreen}\today}
+
+\end{document}
